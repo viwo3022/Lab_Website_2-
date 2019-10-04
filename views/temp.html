@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+	<button class="btn btn-primary" onclick="document.getElementById('demo').innerHTML = Date();"> Display Date and Time.</button>
+	<p id="demo"></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<script>
+function displayDate(id) {
+document.getElementById(id).innerHTML = Date();
+}
+
+</script>
+<body>
+
+<button class="btn btn-primary" onclick="displayDate('demo2');"> Display Date and Time.</button>
+<p id="demo2"></p>
+
+</body>
+</html>
